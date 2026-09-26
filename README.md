@@ -1,6 +1,6 @@
 # Figma Grok (`figma-grok`)
 
-![Figma Grok logo](assets/logo.svg)
+![Figma Grok logo](assets/logo.png)
 
 Marketplace plugin that connects **Grok Bot** (and Cursor) to Figma via the hosted Figma MCP server and agent skills.
 
