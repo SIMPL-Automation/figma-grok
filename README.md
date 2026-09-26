@@ -1,4 +1,4 @@
-# Figma for Grok Bot (`figma-grok`)
+# Figma Grok (`figma-grok`)
 
 Marketplace plugin that connects **Grok Bot** (and Cursor) to Figma via the hosted Figma MCP server and agent skills.
 
@@ -22,7 +22,7 @@ Deferred (optional later): official `workflow-skills/` — `generate-project-pla
 
 ### Marketplace (preferred, once listed)
 
-1. In Grok Bot / Cursor, search plugins for **Figma for Grok Bot** (`figma-grok`).
+1. In Grok Bot / Cursor, search plugins for **Figma Grok** (`figma-grok`).
 2. Install, then complete Figma OAuth when prompted.
 3. Smoke test: ask the agent to call `whoami` on the Figma MCP.
 

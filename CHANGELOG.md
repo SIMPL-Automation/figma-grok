@@ -1,8 +1,14 @@
 # Changelog
 
+## [0.2.1] - 2026-09-25
+
+### Changed
+- Marketplace / public display name shortened to **Figma Grok** (plugin id remains `figma-grok`).
+
+
 ## 0.2.0 — marketplace rename (2026-09-25)
 
-- Renamed plugin id from `figma` to **`figma-grok`** (`displayName`: Figma for Grok Bot) to avoid marketplace name collision with Cursor’s official Figma plugin.
+- Renamed plugin id from `figma` to **`figma-grok`** (`displayName`: Figma Grok) to avoid marketplace name collision with Cursor’s official Figma plugin.
 - README rewritten for marketplace + local install.
 - Still ships MCP + 14 `skills-figquery` skills; workflow-skills deferred.
 
