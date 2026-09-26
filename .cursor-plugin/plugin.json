@@ -1,8 +1,8 @@
 {
   "name": "figma-grok",
   "displayName": "Figma Grok",
-  "version": "0.2.5",
-  "description": "Figma Grok: connect Grok Bot to Figma via hosted MCP plus official skills-figquery workflows (design-to-code, Code Connect, FigJam, Slides, motion, shaders, and more).",
+  "version": "0.2.6",
+  "description": "Designed for the Figma Grok bot — add the bot to get this plugin automatically (easiest path), or install from marketplace search for a plugin-only setup. Same MCP server and skills either way.",
   "author": {
     "name": "Stephen Nilsen"
   },
