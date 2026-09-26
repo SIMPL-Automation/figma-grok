@@ -4,7 +4,7 @@
   <img src="assets/logo-mark.png" alt="Figma Grok logo" width="96" />
 </p>
 
-**This plugin is designed to be used with the Figma Grok Grok Bot.** Maintenance and development of the plugin are **fully automated** by that bot.
+**This plugin is designed for the Figma Grok bot.** Maintenance and development of the plugin are **fully automated** by that bot.
 
 Marketplace plugin that connects **Grok Bot** to Figma via the hosted Figma MCP server and agent skills. Also compatible with Cursor format standards.
 
