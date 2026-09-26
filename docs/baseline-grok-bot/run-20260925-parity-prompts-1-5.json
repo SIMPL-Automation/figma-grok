@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-09-26T00:34:44.609744+00:00",
+  "client": "Grok Bot + hand-added hosted MCP user-figma (https://mcp.figma.com/mcp)",
+  "whoami": {
+    "handle": "Stephen Nilsen",
+    "email": "stephen@simplautomation.com",
+    "plans": [
+      {
+        "name": "SIMPL Automation",
+        "seat": "Full",
+        "tier": "pro",
+        "key": "team::1265128804077118625",
+        "role": "admin"
+      }
+    ]
+  },
+  "mcp_tool_count": 40,
+  "mcp_tools": [
+    "add_code_connect_map",
+    "create_generative_plugin",
+    "create_new_file",
+    "create_shader",
+    "download_assets",
+    "export_video",
+    "generate_diagram",
+    "generate_figma_design",
+    "get_code_connect_map",
+    "get_code_connect_suggestions",
+    "get_context_for_code_connect",
+    "get_design_context",
+    "get_figjam",
+    "get_generative_plugin",
+    "get_libraries",
+    "get_metadata",
+    "get_motion_context",
+    "get_screenshot",
+    "get_shader",
+    "get_variable_defs",
+    "list_file_components_for_code_connect",
+    "list_file_shaders",
+    "list_generative_plugins",
+    "list_shaders",
+    "search_design_system",
+    "send_code_connect_mappings",
+    "update_generative_plugin",
+    "update_shader",
+    "upload_assets",
+    "use_figma",
+    "weave_cancel_tool_run",
+    "weave_find_model",
+    "weave_get_model_run_output",
+    "weave_get_tool_inputs",
+    "weave_get_tool_run_output",
+    "weave_list_tools",
+    "weave_run_model",
+    "weave_run_tool",
+    "weave_upload_asset",
+    "whoami"
+  ],
+  "skill_count_package": 14,
+  "skills_package": [
+    "figma-code-connect",
+    "figma-create-new-file",
+    "figma-design-to-code",
+    "figma-generate-design",
+    "figma-generate-diagram",
+    "figma-generate-library",
+    "figma-generative-plugins",
+    "figma-implement-motion",
+    "figma-shaders",
+    "figma-swiftui",
+    "figma-use",
+    "figma-use-figjam",
+    "figma-use-motion",
+    "figma-use-slides"
+  ],
+  "skill_notes": "Package 0.2.0 ships 14 skills-figquery; workflow-skills (generate-project-plan, video-interaction-mapper) deferred. Session agent_skills lists the figma-* plugin skills.",
+  "fixture_smoke": {
+    "fileKey": "z48ILByyUQKu5WYORYVtNx",
+    "nodeId": "5:4",
+    "nodeId_page": "0:1",
+    "prompt4": {
+      "get_metadata": "success (pages listed; 0:1 Page 1)",
+      "get_screenshot": "success (node 0:1; 274x390 gray PNG URL)"
+    },
+    "prompt5": {
+      "skill": "figma-design-to-code",
+      "tool": "get_design_context",
+      "fileKey": "z48ILByyUQKu5WYORYVtNx",
+      "nodeId": "5:4",
+      "frame": "Frame 1",
+      "usable": true,
+      "notes": "React+Tailwind reference for gray 274x390 rect + screenshot"
+    }
+  },
+  "prompts": {
+    "1_whoami": "pass",
+    "2_tools": "pass (40; no mcp_auth once already authorized)",
+    "3_skills": "pass package (14 figma-*); 2 workflow skills deferred vs Cursor 16",
+    "4_metadata_screenshot": "pass",
+    "5_design_context": "pass"
+  },
+  "vs_cursor_ide_20260925": {
+    "cursor_tool_count": 41,
+    "grok_tool_count": 40,
+    "only_in_cursor": [
+      "mcp_auth"
+    ],
+    "only_in_grok": [],
+    "whoami_same_account": true,
+    "fixture_same_nodes": true,
+    "note": "Live Grok tool names differ from Sep-25 Cursor IDE inventory strings (server renamed several tools). Functional parity on prompts 1/4/5 holds. Count 40 vs 41 = missing mcp_auth on authorized session."
+  }
+}

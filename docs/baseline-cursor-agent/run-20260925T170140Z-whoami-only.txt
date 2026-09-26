@@ -1,0 +1,11 @@
+**Blocked: auth / MCP access failure.**
+
+I do not have a Figma MCP tool named `whoami` in my available tool list, so I could not invoke it directly.
+
+Closest MCP probe (`ListMcpResources`) failed with:
+
+```
+Failed to list MCP resources: HTTP 403: Invalid OAuth error response: SyntaxError: Unexpected token 'F', "Forbidden" is not valid JSON. Raw body: Forbidden
+```
+
+So nothing returned a raw `whoami` payload — access to the Figma MCP was forbidden (OAuth/auth).

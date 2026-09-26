@@ -1,0 +1,106 @@
+{
+  "captured_at": "2026-09-25T17:16:14.619023+00:00",
+  "whoami": {
+    "handle": "Stephen Nilsen",
+    "email": "stephen@simplautomation.com",
+    "plans": [
+      {
+        "name": "SIMPL Automation",
+        "seat": "Full",
+        "tier": "pro",
+        "key": "team::1265128804077118625",
+        "role": "admin"
+      }
+    ]
+  },
+  "mcp_tool_count": 41,
+  "mcp_tools": [
+    "add_code_connect_map",
+    "create_generative_plugin",
+    "create_new_file",
+    "create_shader",
+    "download_assets",
+    "export_video",
+    "generate_diagram",
+    "generate_figma_design",
+    "get_code_connect_map",
+    "get_code_connect_suggestions",
+    "get_context_for_code_connect",
+    "get_design_context",
+    "get_figjam",
+    "get_generative_plugin",
+    "get_libraries",
+    "get_metadata",
+    "get_motion_context",
+    "get_screenshot",
+    "get_shader",
+    "get_variable_defs",
+    "list_file_components_for_code_connect",
+    "list_file_shaders",
+    "list_generative_plugins",
+    "list_shaders",
+    "mcp_auth",
+    "search_design_system",
+    "send_code_connect_mappings",
+    "update_generative_plugin",
+    "update_shader",
+    "upload_assets",
+    "use_figma",
+    "weave_cancel_tool_run",
+    "weave_find_model",
+    "weave_get_model_run_output",
+    "weave_get_tool_inputs",
+    "weave_get_tool_run_output",
+    "weave_list_tools",
+    "weave_run_model",
+    "weave_run_tool",
+    "weave_upload_asset",
+    "whoami"
+  ],
+  "skill_count": 16,
+  "skills": [
+    "figma-code-connect",
+    "figma-create-new-file",
+    "figma-design-to-code",
+    "figma-generate-design",
+    "figma-generate-diagram",
+    "figma-generate-library",
+    "figma-generative-plugins",
+    "figma-implement-motion",
+    "figma-shaders",
+    "figma-swiftui",
+    "figma-use",
+    "figma-use-figjam",
+    "figma-use-motion",
+    "figma-use-slides",
+    "generate-project-plan",
+    "video-interaction-mapper"
+  ],
+  "fixture_smoke": {
+    "when": "2026-09-25T17:15:00Z",
+    "client": "Cursor IDE Agent + official Figma plugin",
+    "fileKey": "z48ILByyUQKu5WYORYVtNx",
+    "nodeId": "5:4",
+    "prompt4": {
+      "get_metadata": "success (pages listed; 0:1 Page 1)",
+      "get_screenshot": "success (node 0:1; empty/blank render)"
+    },
+    "prompt5": {
+      "skill": "figma-design-to-code",
+      "tool": "get_design_context",
+      "fileKey": "z48ILByyUQKu5WYORYVtNx",
+      "nodeId": "5:4",
+      "frame": "Frame 1",
+      "usable": true,
+      "notes": "returned reference code + screenshot for Frame 1"
+    },
+    "nodeId_page": "0:1"
+  },
+  "prompts": {
+    "1_whoami": "pass",
+    "2_tools": "pass (41)",
+    "3_skills": "pass (16)",
+    "4_metadata_screenshot": "pass (page 0:1; blank screenshot)",
+    "5_design_context": "pass (node 5:4 Frame 1; usable code + screenshot)"
+  }
+}

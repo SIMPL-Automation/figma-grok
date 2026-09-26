@@ -1,0 +1,19 @@
+{
+  "prompt": 1,
+  "captured_at": "2026-09-25T19:33:50-05:00",
+  "client": "Grok Bot executor + live user-figma MCP (official; serverStatus=ready)",
+  "tool": "whoami",
+  "result": "pass",
+  "handle": "Stephen Nilsen",
+  "email": "stephen@simplautomation.com",
+  "plans": [
+    {
+      "name": "SIMPL Automation",
+      "seat": "Full",
+      "tier": "pro",
+      "key": "team::1265128804077118625",
+      "role": "admin"
+    }
+  ],
+  "notes": "Live MCP CallMcpTool whoami; no CLI OAuth involved."
+}

@@ -1,0 +1,30 @@
+{
+  "name": "figma-grok",
+  "displayName": "Figma for Grok Bot",
+  "version": "0.2.0",
+  "description": "Connect Grok Bot to Figma: hosted MCP plus official skills-figquery workflows (design-to-code, Code Connect, FigJam, Slides, motion, shaders, and more). Marketplace alternative to the Cursor-named Figma plugin.",
+  "author": {
+    "name": "Stephen Nilsen"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/SIMPL-Automation/figma-grok",
+  "repository": "https://github.com/SIMPL-Automation/figma-grok",
+  "keywords": [
+    "figma",
+    "grok",
+    "design",
+    "mcp",
+    "ui",
+    "code-connect"
+  ],
+  "category": "design",
+  "tags": [
+    "figma",
+    "grok",
+    "design",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg",
+  "skills": "./skills-figquery/",
+  "mcpServers": "./mcp.json"
+}

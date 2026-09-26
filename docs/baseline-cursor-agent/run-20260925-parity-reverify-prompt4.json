@@ -1,0 +1,20 @@
+{
+  "prompt": 4,
+  "captured_at": "2026-09-25T19:34:00-05:00",
+  "client": "Grok Bot executor + live user-figma MCP (official https://mcp.figma.com/mcp; serverStatus=ready)",
+  "fileKey": "z48ILByyUQKu5WYORYVtNx",
+  "nodeId_page": "0:1",
+  "get_metadata": {
+    "result": "pass",
+    "summary": "canvas Page 1 (0:1) contains frame 5:4 Frame 1 (274x390) with rounded-rectangle 5:3"
+  },
+  "get_screenshot": {
+    "result": "pass",
+    "nodeId": "0:1",
+    "width": 274,
+    "height": 390,
+    "format": "png",
+    "notes": "Returned image_url + dimensions; render is solid light gray (blank/empty page appearance overlapping Frame 1 size)."
+  },
+  "result": "pass"
+}

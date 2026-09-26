@@ -1,0 +1,19 @@
+{
+  "prompt": 5,
+  "captured_at": "2026-09-25T19:34:20-05:00",
+  "client": "Grok Bot executor + live user-figma MCP (official https://mcp.figma.com/mcp; serverStatus=ready)",
+  "skill_loaded": "figma-design-to-code",
+  "skill_source": "official plugin cache skills/figma-design-to-code/SKILL.md",
+  "tool": "get_design_context",
+  "fileKey": "z48ILByyUQKu5WYORYVtNx",
+  "nodeId": "5:4",
+  "frame": "Frame 1",
+  "skillNames_param": "figma-design-to-code",
+  "usable": true,
+  "returned": {
+    "reference_code": "React+Tailwind Frame1 with absolute gray rect #d9d9d9 274x390 (data-node-id 5:4 / 5:3)",
+    "screenshot": "274x390 solid light gray PNG saved under agent assets"
+  },
+  "result": "pass",
+  "notes": "Loaded figma-design-to-code skill guidance then called get_design_context; usable reference code + screenshot."
+}

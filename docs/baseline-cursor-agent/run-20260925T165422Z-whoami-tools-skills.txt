@@ -1,0 +1,13 @@
+## whoami
+
+**Unavailable.** No Figma MCP `whoami` tool is exposed in this session, so it was not called. `ListMcpResources` returned no MCP resources. This workspace also has no local `mcps/` descriptors under the current Cursor project path.
+
+## mcp_tools
+
+*(none — no Figma MCP tools are callable in this session)*
+
+## skills
+
+*(none — no Figma-related skills are listed in this session’s available skills)*
+
+**Note:** Figma MCP tool descriptors (including `whoami`) and Figma plugin skills exist in Cursor’s plugin cache on disk for other projects, but they are **not** wired into this agent turn’s tool/skill surface.

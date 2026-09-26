@@ -1,0 +1,23 @@
+# Figma-related skills in session — official plugin cache
+# path: ~/.cursor / sand-data plugins cache cursor-public/figma/ecefd5b5dfd0ca7a1b8f142e0d59bc7f8a2efde6
+# captured_at: 2026-09-25T19:34:17-05:00
+# client: Grok Bot executor (official Figma plugin skills on shared box)
+# count: 16 (14 skills/ + skills-figquery/ figma-* + 2 workflow-skills/)
+# also present locally: ~/.cursor/plugins/local/figma/skills/figma-design-context (package stub; not counted in official 16)
+
+figma-code-connect
+figma-create-new-file
+figma-design-to-code
+figma-generate-design
+figma-generate-diagram
+figma-generate-library
+figma-generative-plugins
+figma-implement-motion
+figma-shaders
+figma-swiftui
+figma-use
+figma-use-figjam
+figma-use-motion
+figma-use-slides
+generate-project-plan
+video-interaction-mapper

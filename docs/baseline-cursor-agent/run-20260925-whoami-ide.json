@@ -1,0 +1,13 @@
+{
+  "handle": "Stephen Nilsen",
+  "email": "stephen@simplautomation.com",
+  "plans": [
+    {
+      "name": "SIMPL Automation",
+      "seat": "Full",
+      "tier": "pro",
+      "key": "team::1265128804077118625",
+      "role": "admin"
+    }
+  ]
+}

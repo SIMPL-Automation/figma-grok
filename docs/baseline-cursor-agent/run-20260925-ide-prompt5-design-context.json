@@ -1,0 +1,10 @@
+{
+  "when": "2026-09-25T17:22:00-05:00",
+  "client": "Cursor IDE Agent + official Figma plugin",
+  "skill": "figma-design-to-code",
+  "tool": "get_design_context",
+  "fileKey": "z48ILByyUQKu5WYORYVtNx",
+  "nodeId": "5:4",
+  "usable": true,
+  "notes": "returned reference code + screenshot for Frame 1"
+}

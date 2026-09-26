@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+.cursor/
+node_modules/
+.env
+.env.*

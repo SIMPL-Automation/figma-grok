@@ -1,0 +1,17 @@
+NOTICE
+
+This package’s packaging, MIT LICENSE, and marketplace metadata are
+maintained by Stephen Nilsen for Grok Bot / Cursor local use.
+
+The skill trees under skills-figquery/ and the Figma MCP server
+configuration are derived from the official Figma Cursor plugin /
+mcp-server-guide packaging. Skill content and use of the Figma MCP
+API are subject to Figma’s Developer Terms and related Figma policies:
+
+  https://www.figma.com/legal/developer-terms/
+  https://www.figma.com/legal/tos/
+
+Do not redistribute Figma skill or MCP materials in ways that conflict
+with those terms. The MIT LICENSE in this repository covers Stephen
+Nilsen’s packaging contributions, not a grant of Figma’s rights in
+upstream skill/MCP materials.

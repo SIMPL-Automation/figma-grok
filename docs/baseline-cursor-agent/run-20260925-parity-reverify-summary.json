@@ -1,0 +1,69 @@
+{
+  "run_id": "run-20260925-parity-reverify",
+  "captured_at": "2026-09-25T19:34:17-05:00",
+  "client": "Grok Bot executor + live user-figma MCP (official Figma MCP; serverStatus=ready)",
+  "official_plugin_cache": "cursor-public/figma/ecefd5b5dfd0ca7a1b8f142e0d59bc7f8a2efde6",
+  "fixture": {
+    "fileKey": "z48ILByyUQKu5WYORYVtNx",
+    "nodeId_page": "0:1",
+    "nodeId_design": "5:4",
+    "frame": "Frame 1"
+  },
+  "mcp_tool_count": 40,
+  "skill_count": 16,
+  "prompts": {
+    "1_whoami": {
+      "status": "pass",
+      "handle": "Stephen Nilsen",
+      "email": "stephen@simplautomation.com",
+      "plans": [
+        {
+          "name": "SIMPL Automation",
+          "seat": "Full",
+          "tier": "pro",
+          "key": "team::1265128804077118625",
+          "role": "admin"
+        }
+      ]
+    },
+    "2_tools": {
+      "status": "pass",
+      "count": 40,
+      "notes": "Live GetMcpTools; mcp_auth absent (prior IDE baseline listed 41 including mcp_auth)."
+    },
+    "3_skills": {
+      "status": "pass",
+      "count": 16,
+      "notes": "14 figma-* from skills/ + skills-figquery/ plus generate-project-plan and video-interaction-mapper from workflow-skills/."
+    },
+    "4_metadata_screenshot": {
+      "status": "pass",
+      "fileKey": "z48ILByyUQKu5WYORYVtNx",
+      "nodeId": "0:1",
+      "notes": "get_metadata showed Page 1 with Frame 1 (5:4); get_screenshot returned 274x390 solid gray PNG."
+    },
+    "5_design_context": {
+      "status": "pass",
+      "skill": "figma-design-to-code",
+      "fileKey": "z48ILByyUQKu5WYORYVtNx",
+      "nodeId": "5:4",
+      "frame": "Frame 1",
+      "usable": true,
+      "notes": "Skill loaded then get_design_context returned React+Tailwind reference code + screenshot."
+    }
+  },
+  "cli_oauth": {
+    "attempted": false,
+    "notes": "Not needed — live user-figma MCP already authenticated (ready). Prior docs note Cursor Agent CLI OAuth 403; this reverify used live MCP only."
+  },
+  "purchases": "none",
+  "evidence_files": [
+    "run-20260925-parity-reverify-whoami.json",
+    "run-20260925-parity-reverify-tools.txt",
+    "run-20260925-parity-reverify-skills.txt",
+    "run-20260925-parity-reverify-prompt4.json",
+    "run-20260925-parity-reverify-prompt5.json",
+    "run-20260925-parity-reverify-summary.json"
+  ],
+  "notes": "Parity reverify via live MCP on Grok Bot. All prompts 1–5 pass. Tool inventory 40 vs IDE baseline 41 (missing mcp_auth only)."
+}
