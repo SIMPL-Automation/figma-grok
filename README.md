@@ -10,7 +10,7 @@ Marketplace plugin that connects **Grok Bot** to Figma via the hosted Figma MCP 
 
 ## Source & terms
 
-Skills under `skills-figquery/` are sourced from the **official Figma Cursor plugin / mcp-server-guide packaging** for parity with Cursor. Skill content and MCP usage are **subject to Figma's Developer Terms** (see `NOTICE`). This repo's MIT `LICENSE` covers packaging by Stephen Nilsen, not a relicense of Figma upstream materials.
+Skills under `skills-figquery/` are sourced from the **official Figma Cursor plugin / mcp-server-guide packaging** for parity with Cursor. Skill content and MCP usage are **subject to Figma's Developer Terms** (see `NOTICE`). This repo's MIT `LICENSE` covers packaging by SIMPL Automation, not a relicense of Figma upstream materials.
 
 ## What it includes
 
