@@ -1,7 +1,7 @@
 # Figma Grok (`figma-grok`)
 
 <p align="center">
-  <img src="assets/logo.png" alt="Figma Grok logo" width="96" />
+  <img src="assets/logo-mark.png" alt="Figma Grok logo" width="96" />
 </p>
 
 Marketplace plugin that connects **Grok Bot** (and Cursor) to Figma via the hosted Figma MCP server and agent skills.
