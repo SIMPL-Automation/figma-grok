@@ -1,7 +1,7 @@
 {
   "name": "figma-grok",
   "displayName": "Figma Grok",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Figma Grok: connect Grok Bot to Figma via hosted MCP plus official skills-figquery workflows (design-to-code, Code Connect, FigJam, Slides, motion, shaders, and more).",
   "author": {
     "name": "Stephen Nilsen"
