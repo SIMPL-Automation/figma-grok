@@ -32,11 +32,23 @@ This plugin is designed to work with the **Figma Grok bot** — that's the best 
 
 The **Figma Grok bot** is the fun, friendly way to use this plugin. Just add the bot, and it'll install and connect this plugin for you during onboarding. Same MCP server and skills — the bot is the recommended onboarding wrapper.
 
-### Secondary: Install the plugin from marketplace
+### Install the plugin from marketplace
 
-If you want the plugin without the bot, search for **Figma Grok** (`figma-grok`) when it's listed in the plugin marketplace. Install, then complete Figma OAuth when prompted.
+Search for **Figma Grok** (`figma-grok`) in the Cursor/Grok Bot plugin marketplace. Install, then complete Figma OAuth when prompted.
 
-### Local (development)
+### If marketplace listing isn't available
+
+If you can't find the plugin in marketplace search, you can install it manually:
+
+1. Open https://github.com/SIMPL-Automation/figma-grok
+2. Click **Code → Download ZIP** (or use `git clone` if you prefer)
+3. Extract the ZIP and copy the entire plugin directory to `~/.cursor/plugins/local/figma-grok`
+   - The directory must contain `.cursor-plugin/plugin.json`
+   - Use `cp -R` or your file manager to create a **real directory copy**
+   - Note: symlinks pointing outside `~/.cursor/plugins/local` are often rejected
+4. Reload window / restart agent, then authorize Figma MCP
+
+### Local development (maintainers)
 
 ```bash
 mkdir -p ~/.cursor/plugins/local
