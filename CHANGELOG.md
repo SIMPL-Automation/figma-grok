@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.8] - 2026-09-30
+
+### Changed
+- Updated MCP bundle header from `figma_prod@2_2_108` to `figma_prod@2_2_123` for upstream parity with figma/mcp-server-guide (commit ~38308b7b).
+- Skills remain byte-identical; no skill tree changes in this release.
+
 ## [0.2.1] - 2026-09-25
 
 ### Changed
@@ -18,7 +24,7 @@
   `skills-figquery/` tree (14 skills) from the Figma Cursor plugin cache.
 - Pointed `.cursor-plugin/plugin.json` `skills` at `./skills-figquery/`.
 - Kept MCP HTTP endpoint `https://mcp.figma.com/mcp` with
-  `X-Figma-Plugin-Bundle: figma_prod@2_2_108`.
+  `X-Figma-Plugin-Bundle: figma_prod@2_2_123`.
 - Documented Figma Developer Terms in NOTICE + README.
 - Deferred `workflow-skills/` (`generate-project-plan`,
   `video-interaction-mapper`) for a later pass.
