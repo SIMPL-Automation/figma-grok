@@ -10,7 +10,7 @@ Statuses: `pass` | `fail` | `blocked` | `n/a` | `todo`
 | Area | Official | Our package (now) | Cursor baseline | Grok Bot | Notes |
 |------|----------|-------------------|-----------------|----------|-------|
 | Manifest `.cursor-plugin/plugin.json` | yes | yes (**0.2.0**, skills→`skills-figquery/`) | todo | todo | |
-| MCP HTTP `https://mcp.figma.com/mcp` | yes | yes (+ `X-Figma-Plugin-Bundle`) | blocked (CLI OAuth 403) | todo | Bundle header matched official `figma_prod@2_2_123` |
+| MCP HTTP `https://mcp.figma.com/mcp` | yes | yes (+ `X-Figma-Plugin-Bundle`) | blocked (CLI OAuth 403) | todo | Bundle header matched official `figma_prod@2_2_124` |
 | Logo / README / LICENSE | yes | yes | n/a | n/a | |
 | Local install path | marketplace/cache | `~/.cursor/plugins/local/figma` symlink | todo | todo | |
 
