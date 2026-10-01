@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.9] - 2026-10-01
+
+### Changed
+- Updated MCP bundle header from `figma_prod@2_2_123` to `figma_prod@2_2_124` for upstream parity with figma/mcp-server-guide (commit ~2c8af036, Skills v2.2.124).
+- Skills remain byte-identical; no skill tree changes in this release.
+
 ## [0.2.8] - 2026-09-30
 
 ### Changed

@@ -1,7 +1,7 @@
 {
   "name": "figma-grok",
   "displayName": "Figma Grok",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Designed for the Figma Grok bot — add the bot to get this plugin automatically (easiest path), or install from marketplace search (GitHub download available if marketplace listing isn't showing). Same MCP server and skills either way.",
   "author": {
     "name": "SIMPL Automation"
