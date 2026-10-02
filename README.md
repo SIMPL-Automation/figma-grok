@@ -15,7 +15,7 @@ Skills under `skills-figquery/` are sourced from the **official Figma Cursor plu
 ## What it includes
 
 - **MCP server:** remote Figma MCP at `https://mcp.figma.com/mcp`
-  (bundle header `X-Figma-Plugin-Bundle: figma_prod@2_2_124`)
+  (bundle header `X-Figma-Plugin-Bundle: figma_prod@2_2_126`)
 - **Skills (14)** from official `skills-figquery/`:
   - `figma-use`, `figma-design-to-code`, `figma-code-connect`, `figma-create-new-file`
   - `figma-generate-design`, `figma-generate-diagram`, `figma-generate-library`

@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.10] - 2026-10-02
+
+### Changed
+- Updated MCP bundle header from `figma_prod@2_2_124` to `figma_prod@2_2_126` for upstream parity with figma/mcp-server-guide (commit ~be1e8adc, Cursor public figma cache aaa07946).
+- Refreshed `skills-figquery/` from upstream Figma Cursor plugin packaging (14 skills):
+  - **figma-generate-design**: Added HTML-to-Figma / `html_to_figma` guidance
+  - **figma-create-new-file**: Updated required-args guidance
+  - **figma-use**: Enhanced plan-node / `$fig` instructions
+  - Other skills updated for consistency with upstream `2_2_126`
+
 ## [0.2.9] - 2026-10-01
 
 ### Changed
