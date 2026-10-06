@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.11] - 2026-10-06
+
+### Changed
+- Updated MCP bundle header from `figma_prod@2_2_126` to `figma_prod@2_2_127` for upstream parity with figma/mcp-server-guide (commit f0493295).
+- **figma-generate-design**: Added "Generating placeholder images" section with `generate_image` guidance (reuse images first; with user consent + Figma AI credits note call `generate_image`, `upload_assets`, apply `imageHash`).
+
 ## [0.2.10] - 2026-10-02
 
 ### Changed
