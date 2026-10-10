@@ -1,3 +1,5 @@
+> **⚠️ DEPRECATED:** This plugin is no longer maintained. Cursor now ships an official **Figma** plugin on the marketplace that replaces `figma-grok`. The official plugin uses the same Figma MCP server (https://mcp.figma.com/mcp) and the same skills. **Please install the official 'Figma' plugin from the Cursor marketplace and uninstall `figma-grok`.** The content below is kept for reference.
+
 # Figma Grok (`figma-grok`)
 
 <p align="center">
